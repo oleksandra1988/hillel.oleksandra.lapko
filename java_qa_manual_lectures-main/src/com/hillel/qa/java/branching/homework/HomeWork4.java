@@ -21,15 +21,23 @@ public class HomeWork4 {
     public static void main(String[] args) {
         Scanner Triangle = new Scanner(System.in);
         System.out.println("Введіть довжину 1 сторони трикутника");
-        int Довжина1 = Triangle.nextInt();
+        int Length1 = Triangle.nextInt();
         System.out.println("Введіть довжину 2 сторони трикутника");
-        int Довжина2 = Triangle.nextInt();
+        int Length2 = Triangle.nextInt();
         System.out.println("Введіть довжину 3 сторони трикутника");
-        int Довжина3 = Triangle.nextInt();
-        if (Довжина1+Довжина2+Довжина3 >= 3) {
+        int Length3 = Triangle.nextInt();
+        if (Length1+Length2>Length3){
             System.out.println("Трикутник можливо побудувати");
-        } else {
+        } else if (Length2+Length3>Length1) {
+            System.out.println("Трикутник можливо побудувати");
+        } else if (Length1+Length3>Length2) {
+            System.out.println("Трикутник можливо побудувати");
+        }         else {
             System.out.println("Трикутник не можливо побудувати");
         }
     }
 }
+
+
+
+
