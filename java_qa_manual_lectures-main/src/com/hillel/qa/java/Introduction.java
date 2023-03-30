@@ -38,7 +38,12 @@ public class Introduction {
         Важливо розуміти що регістр в JAVA має значення, system.out.println("Hello world");
         не спрацює, тому що з маленької букви.
          */
-        System.out.println("Hello world");
+        //System.out.println("Hello world");
+
+        String country = "Ukraine";
+        int salary = 1000;
+        Double price = 10.50;
+
 
         // TODO: Створіть свій клас та виведіть там "QA це круто!"
     }

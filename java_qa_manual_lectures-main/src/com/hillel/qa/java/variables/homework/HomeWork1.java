@@ -10,6 +10,9 @@ public class HomeWork1 {
      * </ul>
      */
     public static void main(String[] args) {
-
+        int year = 1900;
+        double height = 160.5;
+        String countryName = "Ukraine";
+        boolean isStudent = true;
     }
 }

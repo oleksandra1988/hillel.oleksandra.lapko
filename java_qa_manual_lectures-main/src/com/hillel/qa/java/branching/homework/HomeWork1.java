@@ -8,6 +8,25 @@ public class HomeWork1 {
      *  </p>
      */
     public static void main(String[] args) {
+        String Name = "Oleksandra";
+        int Age = 15;
+        if (Age )
+
+
+
+
+        if (Age >= 18){
+            System.out.println(Name + ", вітаю ви розібралися як працює if");
+        } else if (Age <= 26) {
+            System.out.println(Name + ", вітаю ви розібралися як працює if");
+
+
+
+        } else if (Age <17 ) {
+            System.out.println("Данних не знайдено");
+        } else if (Age >26 ) {
+            System.out.println("Данних не знайдено");
+        }
 
     }
 }

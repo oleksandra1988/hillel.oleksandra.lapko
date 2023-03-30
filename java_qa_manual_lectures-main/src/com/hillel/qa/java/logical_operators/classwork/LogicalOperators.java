@@ -44,6 +44,10 @@ public class LogicalOperators {
            3. Є стипендія ?
            Якщо людина має всі якості які перераховані вище, тоді вона заслуговую на підвищену стипендію
         */
+        boolean isStudent = true;
+        boolean isExcellent = true;
+        boolean hasScholarsip = isStudent && isExcellent;
+             System.out.println(hasScholarsip);
 
         /*
         Дуже важливо розуміти що можна міксувати команди між собою.
