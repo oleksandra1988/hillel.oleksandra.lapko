@@ -65,7 +65,13 @@ public class LogicalOperators {
         boolean result = age >= age && isMarried && (!hasChildren);
         System.out.println(result);
         */
-
+        String Name = "Oleksandra";
+        int age = 10;
+        if ((age >= 18)&&(age<=26)){
+            System.out.println(Name + ", вітаю ви розібралися як працює if");
+        } else  {
+            System.out.println("Данних не знайдено");
+        }
 
     }
 

@@ -22,6 +22,22 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
+        int СумаКупівлі= 105;
+        switch (СумаКупівлі) {
+            case 100:
+                System.out.println("Оплата готівкою. Сума до сплати 100");
+                break;
+            case 102:
+                System.out.println("Оплата карткою. Сума до сплати 102");
+                break;
+            case 105:
+                System.out.println("Оплата за рахунком. Сума до сплати 105");
+                break;
+            default:
+                System.out.println("Недійсний спосіб оплати");
+        }
+
+        }
 
     }
-}
+
