@@ -26,13 +26,9 @@ public class HomeWork4 {
         int Length2 = Triangle.nextInt();
         System.out.println("Введіть довжину 3 сторони трикутника");
         int Length3 = Triangle.nextInt();
-        if (Length1+Length2>Length3){
+        if (Length1+Length2>Length3 || Length2+Length3>Length1 || Length1+Length3>Length2){
             System.out.println("Трикутник можливо побудувати");
-        } else if (Length2+Length3>Length1) {
-            System.out.println("Трикутник можливо побудувати");
-        } else if (Length1+Length3>Length2) {
-            System.out.println("Трикутник можливо побудувати");
-        }         else {
+        }        else {
             System.out.println("Трикутник не можливо побудувати");
         }
     }

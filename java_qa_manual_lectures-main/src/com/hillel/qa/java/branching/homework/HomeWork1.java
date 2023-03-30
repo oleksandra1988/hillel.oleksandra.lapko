@@ -10,7 +10,7 @@ public class HomeWork1 {
     public static void main(String[] args) {
         String Name = "Oleksandra";
         int age = 20;
-        if ((age >= 18)&&(age<=26)){
+        if (age >= 18&&age<=26){
             System.out.println(Name + ", вітаю ви розібралися як працює if");
         } else  {
             System.out.println("Данних не знайдено");

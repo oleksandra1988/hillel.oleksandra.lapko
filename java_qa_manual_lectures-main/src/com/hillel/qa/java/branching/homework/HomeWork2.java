@@ -13,15 +13,15 @@ public class HomeWork2 {
     public static void main(String[] args) {
         int x = 10;
         int y = -4;
-        if ((x<0)&&(y<0)){
+        if (x<0&&y<0){
             System.out.println("Ціль знаходиться у 1 чверті");
-        } else if ((x<0)&&(y>0)){
+        } else if (x<0&&y>0){
             System.out.println("Ціль знаходиться у 2 чверті");
-        } else if ((x>0)&&(y<0)){
+        } else if (x>0&&y<0){
             System.out.println("Ціль знаходиться у 3 чверті");
-        } else if ((x>0)&&(y>0)){
+        } else if (x>0&&y>0){
             System.out.println("Ціль знаходиться у 4 чверті");
-        } else if ((x==0)&&(y==0)){
+        } else if (x==0&&y==0){
         System.out.println("Ціль знаходиться у точці 0");
     }
     }

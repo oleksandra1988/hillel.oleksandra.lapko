@@ -22,13 +22,34 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
-        int СумаКупівлі= 105;
-        switch (СумаКупівлі) {
+            int Total = 200;
+            String PaymentMethod = "Credit Card";
+
+                  switch (PaymentMethod) {
+            case "Cash":
+                      System.out.println("Payment by cash. Sum to pay:"+ Total);
+                       break;
+            case "Credit Card":
+                      System.out.println("Payment by credit card. Sum to pay:" + (Total*2/100+Total));
+                       break;
+            case "Account payment":
+                      System.out.println("Payment to account. Sum to pay:" +  (Total*5/100+Total));
+                       break;
+            default:
+                      System.out.println("Invalid payment method");
+
+         }
+    }
+
+
+    }
+
+        /*switch (cevfljcgkfnb) {
             case 100:
                 System.out.println("Оплата готівкою. Сума до сплати 100");
                 break;
-            case 102:
-                System.out.println("Оплата карткою. Сума до сплати 102");
+           /*case Credit/Debit Card:
+                System.out.println("Card payment");
                 break;
             case 105:
                 System.out.println("Оплата за рахунком. Сума до сплати 105");
@@ -39,5 +60,5 @@ public class HomeWork3 {
 
         }
 
-    }
+    } */
 
